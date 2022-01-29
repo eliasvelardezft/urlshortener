@@ -1,8 +1,8 @@
-import os
 from unipath import Path
 
 from decouple import config
-# Build paths inside the project like this: BASE_DIR / 'subdir'.
+
+
 BASE_DIR = Path(__file__).ancestor(3)
 
 
@@ -23,8 +23,8 @@ DJANGO_APPS = [
 ]
 
 LOCAL_APPS = [
-    'applications.users',
-    'applications.urlshortener',
+    'users',
+    'shortenedurls',
 ]
 
 THIRD_PARTY_APPS = [

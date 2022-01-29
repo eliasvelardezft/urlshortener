@@ -1,7 +1,7 @@
 from django.test import TestCase
 
-from applications.urlshortener.forms import ShortenedUrlForm
-from applications.urlshortener.models import ShortenedUrl
+from urlshortener.forms import ShortenedUrlForm
+from urlshortener.models import ShortenedUrl
 
 class ShortenedUrlFormTestCase(TestCase):
 
