@@ -1,5 +1,5 @@
 import os
-from pathlib import Path
+from unipath import Path
 
 from decouple import config
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -22,7 +22,10 @@ DJANGO_APPS = [
     'django.contrib.staticfiles',
 ]
 
-LOCAL_APPS = []
+LOCAL_APPS = [
+    'applications.users',
+    'applications.urlshortener',
+]
 
 THIRD_PARTY_APPS = [
     'rest_framework'
